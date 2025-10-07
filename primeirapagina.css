@@ -1,0 +1,26 @@
+html, body{
+    height: 100%;
+
+}
+body{
+    font-family: Roboto;
+    color: rgb(31, 119, 252);
+    background-color: rgb(160, 235, 235);
+}
+
+.topo{
+    display: flex; /* alinha logo e menu lado a lado */
+    justify-content: space-between; /* justifica os elementos */
+    align-items: center; /* Centraliza os elementoa*/
+    padding: 30px;
+    background: white;
+    border-bottom: 7px solid rgb(150, 142, 142);
+    border-right: 7px solid rgb(150, 142, 142);
+    /*position: fixed; /*¨ Manten um elemento*/
+    /*top: 0;/* Gruda algo no topo da tela */
+    /*left: 0;/* garante que algo smepre começe do lado esquerdo*/
+    /*width: 100%;/* ocupa toda a largura da página. */
+    /*z-index: 1000%;/* evita que outros elementos fiquem por cima. */
+
+
+}

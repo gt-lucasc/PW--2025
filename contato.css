@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+
+}
+
+.cabeçalho{
+    display: flex;
+    background: fixed;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho h2{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.navegação{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.links a{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu{
+    color: white;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.menu:hover{
+    color: rgb(0, 182, 255);
+    transition: .15s ease-in-out;
+    transform: scale(1.2)
+}
+
+#bt{
+    margin-right: 2rem;
+
+}
+
+.botao-contato{
+    color: white;
+    background-color: #0088FF;
+    padding: 11px, 18px;
+    margin-right: 2rem;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.botao-contato:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(14, 239, 255, 0.549);
+    transition: .15s ease-in-out;
+    transform: scale(0.95);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+

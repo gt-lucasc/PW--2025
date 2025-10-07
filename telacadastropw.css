@@ -1,0 +1,36 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container1{
+    color: white;
+    background-color: #009A9B;
+
+}
+
+
+.container2{
+
+}
+
+.lado-formulario1{
+    background-color: #009A9B;
+}
+
+.lado-formulario1 form{
+    background-color: #009A9B;
+}
+
+.lado-imagem1{
+    
+}
+
+.lado-imagem img{
+
+}
+
+.lado-formulario1 button{
+
+}

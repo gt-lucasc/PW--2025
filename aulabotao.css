@@ -1,0 +1,39 @@
+/* Estilos aplicados ao básico da página*/
+html, body {
+    font-family: Arial, sans-serif;
+    background: rgb(49, 204, 196);
+    text-align: center;
+    padding: 3rem;
+}
+
+h1{
+    margin-top: 50px;
+    color: white;
+}
+
+
+/* Classe base para todos os botões*/
+.btn{
+    background: white;
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.4s ease;  /* Suavisa a transição dae cor!*/
+}
+
+/* Botão Azul*/
+.btn-azul:hover {
+    background: linear-gradient(90deg, #00ffc8, #057a5d); /* Degradê azul quando passa o mouse */
+    color: white;
+    border-color: #1e3a8a;
+
+}
+/* Botão amarelo*/
+.btn-amarelo:active {
+    background: linear-gradient(90deg, #00ffc8, #057a5d);
+    color: white;
+    border-color: #1e3a8a;
+}

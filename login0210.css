@@ -1,0 +1,18 @@
+/* Reset */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Login */
+
+.lado-formulario{
+    color: white;
+    background-color: #00666c;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
