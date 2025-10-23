@@ -1,0 +1,141 @@
+/* 1. RESET BÁSICO (Para garantir consistência) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura/altura total */
+}
+/*CARD 1*/
+.titulo1{
+    text-align: center;
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.container{
+
+}
+
+.card1{
+
+}
+
+.imagem-card1{
+
+}
+
+.titulo-card1{
+
+}
+
+.descricao-card1{
+
+}
+
+.btn-proposta-card1{
+
+}
+/*CARD 2*/
+.card2{
+
+}
+
+.imagem-card2{
+
+}
+
+.titulo-card2{
+
+}
+
+.descricao-card2{
+
+}
+
+.btn-proposta-card2{
+
+}
+/*CARD 3*/
+.card3{
+
+}
+
+.imagem-card3{
+
+}
+
+.titulo-card3{
+
+}
+
+.descricao-card3{
+
+}
+
+.btn-proposta-card3{
+
+}
+
+/*CARD 4*/
+.card4{
+
+}
+
+.imagem-card4{
+
+}
+
+.titulo-card4{
+
+}
+
+.descricao-card4{
+
+}
+
+.btn-proposta-card4{
+
+}
+
+/*CARD 5*/
+.card5{
+
+}
+
+.imagem-card5{
+
+}
+
+.titulo-card5{
+
+}
+
+.descricao-card5{
+
+}
+
+.btn-proposta-card5{
+
+}
+/*CARD 6*/
+.card6{
+
+}
+
+.imagem-card6{
+
+}
+
+.titulo-card6{
+
+}
+
+.descricao-card6{
+
+}
+
+.btn-proposta-card6{
+
+}
+
