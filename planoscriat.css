@@ -1,0 +1,136 @@
+/* 1. Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f0f0; 
+    padding: 50px 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 0 auto 10px;
+    font-weight: bold;
+}
+
+/* 2. CONTAINER PRINCIPAL E LINHAS (GRID OU FLEX COLUNA) */
+.card-layout {
+    display: flex; /* Organiza as LINHAS verticalmente */
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Espaço entre a primeira e a segunda linha */
+    max-width: 1200px; /* Largura máxima do layout */
+    margin: 40px auto 0; /* Centraliza horizontalmente */
+}
+
+/* 3. LAYOUT HORIZONTAL DE CADA LINHA */
+.linha-cards {
+    display: flex; /* Organiza os CARDS horizontalmente */
+    justify-content: center;
+    gap: 30px; /* Espaço entre os cards */
+    width: 100%;
+}
+
+
+/* 4. ESTILO BASE DO CARD */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Flexbox: 1/3 do container de forma flexível */
+    flex-basis: 30%; /* Base para 3 cards */
+    flex-grow: 1; 
+}
+
+/* 5. FAZENDO O CARD CENTRAL DA PRIMEIRA LINHA SER MAIOR */
+.card-maior {
+    flex-grow: 1.5; /* Ocupa 50% a mais de espaço livre */
+    flex-basis: 35%; /* Base ligeiramente maior para o card central */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* 6. ESTILIZAÇÃO DE CONTEÚDO (Ajuste conforme a imagem do Figma) */
+.card img {
+    width: 100%;
+    height: 150px; /* Altura fixa para a área da imagem */
+    object-fit: cover;
+}
+
+.conteudo {
+    padding: 15px;
+}
+
+.titulo {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: white;
+    text-align: center;
+}
+
+.descricao {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.card-botao {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: black; /* Azul padrão */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card-botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.card-botao-secundario {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    color: #ffffff; /* Texto azul para contraste */
+    text-decoration: none;
+    border: 1px solid #ffffff; /* Borda azul para definição */
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Efeito hover (opcional) */
+.card-botao-secundario:hover {
+    background-color: #ffffff;
+}
+
+#logomarcas{
+    background: linear-gradient(180deg, #002b5b 0%, #65a4e2 100%);
+
+}
+#manuais{
+    background: linear-gradient(180deg, #1e90ff 0%, #0047ab 100%);
+}
+#materiais{
+    background: linear-gradient(180deg,#000022 0%, #7171d8);
+}
+#uniformes{
+    background: linear-gradient(180deg, #00b894 0%, #009975 100%);
+}
+#sinalizacao{
+    background: linear-gradient(180deg, #ff6b00 0%, #ff3d00 100%);
+}
+#comunicacao{
+    background: linear-gradient(180deg, #00796b 0%, #004d40 100%);
+}
