@@ -1,0 +1,95 @@
+11/11/25 - fundamentos de banco de dados com SQL.
+
+Banco de dados se iguala a uma tabela do excel;
+
+Tudo do cict vai parar na tabela;
+
+O que é um banco de dados? 
+
+- Qualquer tipo de dados armazenados e organizados para futura consulta;
+
+LGPD - Usuários deverá ter acesso aos seus dados para fazer o que quiser;
+
+Tipos de banco de dados 
+
+-Relacionais - índice, chaves números e colunas, mais organizados e lentos.
+
+-Não relacionais - 
+São desorganizados e mais rápidos.
+
+Estrutura de um banco de dados
+
+1- Índices
+Otimizam consultas
+2 - Normalização
+3 - Chaves
+4 - Tabelas
+
+Introdução ao SQL
+
+Criado em 1974
+Padronização do ANSI SQL em 1986
+
+Atualização do SQL em 1992
+
+Hoje - Linguagem universal
+
+Comandos básicos de SQL
+
+CREATE TABLE;
+cria uma tabela.
+
+ALTER TABLER;
+altera a estrutura e modifica o banco de dados.
+
+DROP TABLE;
+remove componentes de uma tabela do banco de dados.
+
+CONSTRANTS;
+estabelece regras para os dados
+
+SELECT;
+consultar dados.
+
+INSERT;
+algum dado.
+
+UPDATE;
+para modificar dados.
+
+FROM;
+usado para especificar a tabela.
+
+WHERE;
+usado para adicionar condições às consultas.
+
+
+DELETE;
+remove registros do banco de dados.
+
+CONSULTAS AVANÇADAS COM SQL
+
+JOINs
+
+
+PESQUI
+
+
+Cores:
+
+Logotipos Profissionais
+
+Manuais de Identidade Visual
+background: linear-gradient(rgb(0, 43, 91) 0%, rgb(101, 164, 226) 100%);
+
+Materiais Corporativos
+background: linear-gradient(rgb(0, 0, 34) 0%, rgb(113, 113, 216));
+
+Uniformes Personalizados
+background: linear-gradient(rgb(0, 184, 148) 0%, rgb(0, 153, 117) 100%);
+
+Sinalização de Segurança
+background: linear-gradient(rgb(255, 107, 0) 0%, rgb(255, 61, 0) 100%);
+
+Comunicação Visual Empresarial
+background: linear-gradient(rgb(0, 121, 107) 0%, rgb(0, 77, 64) 100%);
